@@ -1,0 +1,94 @@
+body {
+    font-family: bahnschrift, sans-serif;
+    font-size: clamp(0.9rem, 1vw, 1rem);
+background-image: url("https://images.unsplash.com/photo-1502472584811-0a2f2feb8968?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+color: #1c881c  
+}
+
+  fieldset{
+
+	border: 1px solid #1c881c;
+	margin: 5px;
+	padding: 5px;
+  }
+
+  #formcontacto {
+	 width: 50%;
+	margin: auto;
+	text-align: center;
+	min-width: 300px;
+	padding: 25px; 
+
+background: rgba( 255, 255, 255, 0.5 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 7px );
+-webkit-backdrop-filter: blur( 7px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+
+  .oblig-form {
+    color: red !important;
+    font-size: 11px;
+    vertical-align: super;
+  }
+
+.form-basic input[type=checkbox], .form-basic input[type=radio] {
+	box-shadow: none;
+	width: auto ;
+	background-color: #1c881c;
+}
+
+
+.form-basic textarea {
+	border: 1px solid #1c881c;
+	height: 80px;
+	font: normal 13px sans-serif;
+}
+
+
+.form-basic button {
+	border-radius: 2px;
+	background-color: #1c881c;
+	color: #fff;
+	font-weight: 700;
+	box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, .08);
+	padding: 0.9rem 1.4rem;
+	border: 0;
+	cursor: pointer;
+}
+
+.form-basic button:hover{
+    background-color: #096d09;
+}
+
+.form-basic .form-row {
+	text-align: center;
+	margin-bottom: 2%;
+}
+
+.form-basic .form-row>label span {
+	display: inline-block;
+
+	text-align: right;
+	padding: 4px 5px;
+}
+
+
+form input, form textarea{
+	
+	padding: 5px;
+	box-sizing: border-box;
+	border: 0;
+	transition: all .3s;
+	border-bottom: 1px solid #1c881c;
+	margin: 5px;
+	background: none;
+}
+
+input:focus, form textarea:focus, input:focus-visible, form textarea:focus-visible  {
+	background: #e4ffe2;
+	
+}
+
+

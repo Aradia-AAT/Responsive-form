@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+
+
+<form action="#" method="post" class="form-basic center" id="formcontacto" autocomplete="on">
+   
+        <fieldset>
+            <legend><p>Acceder:</p></legend>
+            <div class="form-row">                    
+                <label><span>User:<em class="oblig-form">&nbsp;*</em></span> <input
+                    type="text" class="micuenta" name="user" id="user" required>
+            </label>
+        </div>
+                <div class="form-row">                    
+                        <label><span>Pass:<em class="oblig-form">&nbsp;*</em></span> <input
+                            type="password" class="micuenta" name="pass" id="pass" required>
+                    </label>
+                </div>
+
+                
+</fieldset>
+<fieldset>
+    <legend><p>Nuevo usuario:</p></legend>
+        
+    <div class="form-row">                    
+                <label><span>Nombre:<em class="oblig-form" >&nbsp;*</em></span>
+                    <input type="text" class="micuenta" name="nombre" id="nombre" required>
+                </label>
+            </div>
+
+            <div class="form-row">
+                <label><span>Apellidos:<em class="oblig-form">&nbsp;*</em> </span><input
+                        type="text" class="micuenta" name="apellidos" id="apellidos" required>
+                </label>
+            </div>
+
+            <div class="form-row">
+                <label><span>Teléfono:<em class="oblig-form">&nbsp;*</em></span><input
+                        type="tel"  class="micuenta" name="telefono" id="telefono" required>
+                </label>
+            </div>
+
+            <div class="form-row">
+                <label><span>Email:<em class="oblig-form">&nbsp;*</em></span> <input
+                        type="email" class="micuenta" name="correo" id="correo" required>
+                </label>
+        </div>
+
+        <div class="form-row">
+            <label><span>Fecha nacimiento:</span> <input
+                    type="date" class="micuenta" name="fecha" id="fecha" >
+            </label>
+    </div>
+
+        <div class="form-row">
+            <label><span>Color fav:</span> <input
+                    type="color" class="micuenta" name="color" id="color" >
+            </label>
+    </div>
+        
+
+        <div class="form-row">
+            <label><span style="vertical-align: top">Informacion adicional:</span>
+                <textarea name="info" id="inforequerida" cols="20" rows="6"></textarea>
+            </label>
+        </div>
+
+        <div class="form-row"> 
+            <label><span> Me interesa:</span></label>            
+            <input type="checkbox" id="css" name="css" value="css">
+            <label for="css"> CSS</label>
+            <input type="checkbox" id="html" name="html" value="html">
+            <label for="html"> HTML</label>
+            <input type="checkbox" id="javascript" name="javascript" value="javascript">
+            <label for="javascript"> Javascript</label>
+    </div>
+
+
+        
+
+    </fieldset>
+
+    <div class="form-row">
+        <label> <input type="checkbox" name="acepta" id="acepta" value="1"
+                required>He leído y acepto la política de privacidad<em class="oblig-form">*</em> <a
+                href="#" target="_blank" title="Política de privacidad"
+                alt="Política de privacidad"> [+ info]</a></label>
+        <br><br>
+        Quiero estar al tanto de las últimas novedades  
+        <label> <input type="radio" name="news" id="news" value="1" required>
+            Si </label>
+        <label> <input type="radio" name="news" id="news" value="0"> 
+            No
+        </label>
+
+    </div>
+
+    <div class="campos-obligatorios">
+        <p class="notas" style="color: #989997; font-size: 10px; text-decoration: none; cursor: default;">
+            <b> <em style="color: red;">*</em> Campos obligatorios</b></p>
+
+
+    </div> 
+            <button type="submit">Send!</button> 
+
+            <button type="reset"> Reset form</button>
+
+            </form>
+</body>
+</html>
